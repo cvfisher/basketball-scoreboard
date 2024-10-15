@@ -30,13 +30,18 @@ button {
   border: 2px solid #9aabd8;
   border-radius: 5px;
   padding: 10px 8px;
+  cursor: pointer;
 }
 
 .container {
   display: flex;
+  height: 100vh;
   justify-content: space-around;
   background: #1b244a;
-  padding: 70px 85px;
+  padding: 70px;
+  max-width: 575px;
+  height: 385px;
+  margin: 50px auto;
 }
 
 .score-container {
@@ -62,5 +67,9 @@ button {
 .reset {
   height: 100px;
   width: 100px;
-  align-self: end;
+  align-self: center;
+}
+
+.highlight {
+  text-shadow: 0 0 5px white;
 }
